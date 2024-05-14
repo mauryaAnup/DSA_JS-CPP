@@ -28,7 +28,7 @@ function keyPairBruteForce(arr, n, x) {
 }
 
 // Solution 2 -> Sorting & Two Pointer(T.C -> O(nlogn))
-function keyPairOptimized1(arr, n, x) {
+function keyPairOptimized(arr, n, x) {
     arr.sort(); // T.C -> O(nlogn)
     let i = 0;
     let j = n - 1;

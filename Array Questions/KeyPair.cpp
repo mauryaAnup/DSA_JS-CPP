@@ -1,3 +1,15 @@
+// Given an array Arr of N positive integers and another number X. 
+// Determine whether or not there exist two elements in Arr whose sum is exactly X.
+
+// E.g: 
+// N = 6, X = 16
+// Arr[] = {1, 4, 45, 6, 10, 8}
+// Output: Yes
+// Explanation: Arr[3] + Arr[4] = 6 + 10 = 16
+
+// Expected Time Complexity: O(N)
+// Expected Auxiliary Space: O(N)
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
