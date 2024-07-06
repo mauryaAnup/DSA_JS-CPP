@@ -23,8 +23,6 @@ function sortColor_BruteForce() {
     return nums;
 }
 
-// console.log(sortColor_BruteForce());
-
 
 // Solution 2 -> Two Pointer (T.C -> O(n))
 function sortColor_Optimized() {
@@ -54,9 +52,7 @@ function sortColor_Optimized() {
     return nums;
 }
 
-console.log(sortColor_Optimized());
-
-
+//Helper Function
 function swapTwoNumber(a, b) {
     a = a + b;
     b = Math.abs(a - b);
